@@ -1,0 +1,31 @@
+body {
+  background-color: #ecfbfc;
+}
+
+h1 {
+  color: #dd2c00;
+}
+
+h3 {
+  color: #ff5722
+}
+
+p, li {
+  color: #522d5b
+}
+
+td, th, label {
+  color: #400082
+}
+
+hr {
+  border-style: dotted;
+  border-width: 5px 0 0 0;
+  width: 5%;
+  border-color: #400082;
+}
+
+img {
+  height: 240px;
+  width: 320px;
+}
