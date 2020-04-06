@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>Request a Game</title>
+  <link rel="stylesheet" href="Css/styles.css">
 </head>
 
 <body>
   <form action="mailto:joe@example.com?subject=feedback" method="post" enctype="text/plain">
-    <label>Select The Type Of Game You Are Looking For</label>
+    <h1>Select The Type Of Game You Are Looking For</h1>
     <input list="GameTypes" name="GameType" value="" required>
     <datalist id="GameTypes">
       <option value="Platformer"></option>
@@ -26,7 +27,7 @@
     <br>
     <label>Your Approximate Budget</label>
     <br>
-    <input id="number" type="number" value="100" min="50" name="Budget"required><label>$</label>
+    <input id="number" type="number" value="100" min="50" name="Budget" required><label>$</label>
     <br>
     <br>
     <label>Your Email:</label>
